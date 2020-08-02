@@ -15,6 +15,9 @@
     "css-loader": "^4.2.0",
     "electron": "^9.1.2",
     "html-webpack-plugin": "^4.3.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "vue-loader": "^15.9.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
@@ -23,6 +26,8 @@
   },
   "dependencies": {
     "@tensorflow/tfjs": "^2.0.1",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.16.0",
     "vue": "^2.6.11",
     "vue-router": "^3.3.4"
   }

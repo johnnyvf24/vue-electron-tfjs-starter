@@ -1,17 +1,22 @@
 <template>
     <div>
         <header>
-            <router-link :to="{ name: 'home' }">Home</router-link>
+            <custom-navbar />
         </header>
         <main>
-            <router-view></router-view>
+            <b-container fluid>
+                <router-view></router-view>
+            </b-container>
         </main>
     </div>
 </template>
 
 <script>
+    import CustomNavbar from './components/nav/CustomNavBar.vue'
     export default {
-        
+        components: {
+            CustomNavbar
+        }
     }
 </script>
 

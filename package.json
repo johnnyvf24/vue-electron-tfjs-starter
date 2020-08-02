@@ -1,0 +1,29 @@
+{
+  "name": "vue-electron-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./dist/main.bundle.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.0",
+    "electron": "^9.1.2",
+    "html-webpack-plugin": "^4.3.0",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.0.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  }
+}

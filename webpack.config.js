@@ -47,6 +47,9 @@ module.exports = [
     },
     {
         mode: 'development',
+        node: {
+            __dirname: false
+        },
         target: 'electron-main',
         entry: {
             main: path.join(__dirname, './src/electron/main.js'),

@@ -6,8 +6,8 @@
   "scripts": {
     "start": "export NODE_ENV=prod && electron ./dist/main.bundle.js",
     "electron:dev": "nodemon --watch src --exec npm start -e js,css,vue,scss",
-    "build": "webpack --config webpack.config.js",
-    "dev": "concurrently \"webpack --config webpack.config.js --watch\" \"npm run electron:dev\"",
+    "build": "webpack --mode=production --config ./config/webpack.config.js",
+    "dev": "concurrently \"webpack --mode=development --config ./config/webpack.config.js --watch\" \"npm run electron:dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
